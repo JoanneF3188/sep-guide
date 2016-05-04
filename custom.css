@@ -80,17 +80,15 @@ h1 {
 
 /*}*/
 
-body {
-    background-color: gray;
-}
+
 
 .carousel {
-    height: 500px;
+    height: 760px;
     margin-bottom: 60px;
 }
 
 .carousel .item {
-    height: 500px;
+    height: 760px;
     background-color: #777;
 }
 
@@ -103,7 +101,7 @@ body {
 
 @media only screen and (min-width: 768px) {
     .carousel .item {
-        height: 500px;
+        height: 760px;
     }
     #home {
         text-align: center;
