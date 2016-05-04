@@ -12,11 +12,6 @@ body,
     display: table-cell;
 }
 
-.carousel {
-    height: 500px;
-    margin-bottom: 60px;
-}
-
 #home {
     color: white;
     font-family: 'Inknut Antiqua', serif;
@@ -31,7 +26,31 @@ body,
     background-size: cover;
 }
 
+body {
+    background-color: gray;
+}
+
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+.carousel .item {
+    height: 500px;
+    background-color: #777;
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
 @media only screen and (min-width: 768px) {
+    .carousel .item {
+        height: 500px;
+    }
     #home {
         text-align: center;
         font-size: 40px;
@@ -39,6 +58,7 @@ body,
 }
 
 @media only screen and (min-width:992px) {
+
     #home {
         font-size: 50px;
     }
@@ -49,10 +69,13 @@ body,
         font-size: 62px;
     }
 }
+
 #meaganmanga {
-    margin-left:50px;
+    margin-left: 50px;
 }
 
-#meaganmanga:hover {
-    
+#meaganmanga:hover {}
+
+#joannemanga {
+    margin-left: 50px;
 }
