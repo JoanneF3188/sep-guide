@@ -29,9 +29,25 @@ html {
     display: table-cell;
 }
 
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
 .carousel {
     height: 500px;
     margin-bottom: 60px;
+}
+
+#home {
+    color: white;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-weight: bold;
 }
 
 
@@ -64,7 +80,31 @@ html {
 
 /*}*/
 
+body {
+    background-color: gray;
+}
+
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+.carousel .item {
+    height: 500px;
+    background-color: #777;
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
 @media only screen and (min-width: 768px) {
+    .carousel .item {
+        height: 500px;
+    }
     #home {
         text-align: center;
         font-size: 40px;
@@ -91,4 +131,8 @@ html {
 
 #meaganmanga:hover {
     border-color: #f1f1f1;
+}
+
+#joannemanga {
+    margin-left: 50px;
 }
