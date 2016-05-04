@@ -1,9 +1,26 @@
-html,
+/*html,*/
+
+
+/*body,*/
+
+
+/*.container-table {*/
+
+
+/*    height: 45%;*/
+
+
+/*    width: 100%;*/
+
+
+/*    background-color: gray;*/
+
+
+/*}*/
+
 body,
-.container-table {
-    height: 45%;
-    width: 100%;
-    background-color: gray;
+html {
+    background: linear-gradient(rgb(255, 255, 255), rgba(8, 107, 173, .8));
 }
 
 .text-vertical-center {
@@ -17,19 +34,35 @@ body,
     margin-bottom: 60px;
 }
 
-#home {
-    color: white;
-    font-family: 'Inknut Antiqua', serif;
-    font-weight: bold;
-}
 
-#front-page {
-    display: table;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient( rgba(255, 80, 80, 0.9), rgba(0, 0, 0, 0.1)), URL('') no-repeat center;
-    background-size: cover;
-}
+/*#I{*/
+
+
+/*    color:black;*/
+
+
+/*}*/
+
+
+/*#front-page {*/
+
+
+/*    display: table;*/
+
+
+/*    width: 100%;*/
+
+
+/*    height: 100%;*/
+
+
+/*    background: linear-gradient( rgba(192, 222, 241, .4), rgba(37,64,168,.9)) no-repeat center;*/
+
+
+/*    background-size: cover;*/
+
+
+/*}*/
 
 @media only screen and (min-width: 768px) {
     #home {
@@ -41,18 +74,21 @@ body,
 @media only screen and (min-width:992px) {
     #home {
         font-size: 50px;
+        text-align: center;
     }
 }
 
 @media only screen and (min-width:1200px) {
     #home {
         font-size: 62px;
+        text-align: center;
     }
 }
+
 #meaganmanga {
-    margin-left:50px;
+    margin-left: 50px;
 }
 
 #meaganmanga:hover {
-    
+    border-color: #f1f1f1;
 }

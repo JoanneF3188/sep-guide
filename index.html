@@ -20,11 +20,17 @@
     <!--Inknut Antiqua-->
     <link href='https://fonts.googleapis.com/css?family=Kavoon' rel='stylesheet' type='text/css'>
     <!--Kavoon-->
+    <link href='https://fonts.googleapis.com/css?family=Arvo|Quicksand|Sigmar+One|Abril+Fatface|Orbitron|Cinzel|Fredoka+One|Work+Sans|Didact+Gothic' rel='stylesheet' type='text/css'>
 </head>
 
 <style>
     body {
-        background-color: gray;
+        background-color: whitesmoke;
+    }
+    
+    h1 {
+        font-size: 60px;
+        text-align: center;
     }
     
     .carousel {
@@ -35,7 +41,6 @@
     
     .carousel .item {
         height: 500px;
-        background-color: #777;
     }
     
     .carousel-inner > .item > img {
@@ -81,13 +86,20 @@
             margin-top: 120px;
         }
     }
+    
+    #home {
+        font-family: 'Cinzel', serif;
+        text-align: center;
+    }
 </style>
 
 <body>
     <header id="front-page">
         <!--<img>-->
         <div class="text-vertical-center">
-            <h1 id="home">Title Goes Here</h1>
+            <h1 id="home">
+       Your SEP Survival Guide
+         </h1>
         </div>
     </header>
     <nav class="navbar navbar-default navbar-fixed">
@@ -104,10 +116,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#Il">Iniside Learning </a></li>
-                    <li><a href="#Ol">Outside Learning </a></li>
-                    <li><a href="#skills">Useful Skills </a></li>
-                    <li><a href="#resources">Resources </a></li>
+                    <li><a id="I" href="#Il">Iniside Learning </a></li>
+                    <li><a id="I" href="#Ol">Outside Learning </a></li>
+                    <li><a id="I" href="#skills">Useful Skills </a></li>
+                    <li><a id="I" href="#resources">Resources </a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -151,18 +163,36 @@
         </a>
     </div>
     <!-- /.carousel -->
-        
+
     <div class="container text center">
         <h2>Resources</h2>
         <ul>
             <li><a href="http://www.w3schools.com/">W3schools</a></li>
-             <li>Class Slides</li>
-              <li>Google</li>
-               <li>Your teacher</li>
-                <li>Your peers</li>
+            <li>Class Slides</li>
+            <li>Google</li>
+            <li>Your teacher</li>
+            <li>Your peers</li>
         </ul>
     </div>
-    <footer>  <img  id="meaganmanga" src= "meagan.png" class="img-responsive img-circle"  alt="Me" width="300" height="300"></footer>
+
+    <div class="col sm-4">
+
+        <img id="meaganmanga" src="meagan.png" class="img-responsive img-circle" alt="Me" width="300" height="300">
+
+    </div>
+
 </body>
 
 </html>
+<!-- <div class="col-sm-4">-->
+<!--    <p class="text-center"><strong>Name</strong></p><br>-->
+<!--    <a href="#demo3" data-toggle="collapse">-->
+<!--      <img src="bandmember.jpg" class="img-circle person" alt="Random Name">-->
+<!--    </a>-->
+<!--    <div id="demo3" class="collapse">-->
+<!--      <p>Bass player</p>-->
+<!--      <p>Loves math</p>-->
+<!--      <p>Member since 2005</p>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
