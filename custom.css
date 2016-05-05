@@ -23,28 +23,22 @@ html {
     background: linear-gradient(rgb(255, 255, 255), rgba(8, 107, 173, .8));
 }
 
-.text-vertical-center {
-    text-align: center;
-    vertical-align: middle;
-    display: table-cell;
-}
+
 
 body {
     background-color: whitesmoke;
 }
 
-h1 {
-    font-size: 60px;
-    text-align: center;
-}
 
-.carousel {
-    height: 500px;
-    margin-bottom: 60px;
-}
+/*.carousel {*/
+
+
+/*    height: 700px;*/
+
+
+/*}*/
 
 #home {
-    color: white;
     font-family: 'Cinzel', serif;
     text-align: center;
     font-weight: bold;
@@ -81,28 +75,48 @@ h1 {
 /*}*/
 
 
+/*.carousel {*/
 
-.carousel {
-    height: 760px;
-    margin-bottom: 60px;
-}
 
-.carousel .item {
-    height: 760px;
-    background-color: #777;
-}
+/*    height: 100px;*/
 
-.carousel-inner > .item > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
+
+/*margin-bottom: 60px;*/
+
+
+/*}*/
+
+
+/*.carousel .item {*/
+
+
+/*    height: 760px;*/
+
+
+/*    background-color: #777;*/
+
+
+/*}*/
+
+
+/*.carousel-inner > .item > img {*/
+
+
+/*    position: absolute;*/
+
+
+/*    top: 0;*/
+
+
+/*    left: 0;*/
+
+
+/*    width: 100%;*/
+
+
+/*}*/
 
 @media only screen and (min-width: 768px) {
-    .carousel .item {
-        height: 760px;
-    }
     #home {
         text-align: center;
         font-size: 40px;
@@ -127,9 +141,14 @@ h1 {
     margin-left: 50px;
 }
 
-#meaganmanga:hover {
-    border-color: #f1f1f1;
-}
+
+/*#meaganmanga:hover {*/
+
+
+/*    border-color: #f1f1f1;*/
+
+
+/*}*/
 
 #joannemanga {
     margin-left: 50px;
