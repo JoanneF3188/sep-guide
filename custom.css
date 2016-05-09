@@ -45,16 +45,15 @@ h1 {
 /*    background-size: cover;*/
 /*}*/
 
-body {
-    background-color: gray;
-}
+
 
 .carousel {
+    height: 760px;
     margin-bottom: 60px;
 }
 
 .carousel .item {
-    height: 500px;
+    height: 760px;
     background-color: #777;
 }
 
@@ -63,8 +62,8 @@ body {
     top: 0;
     left: 0;
     text-align: center;
-    width: 70%;
 }
+    
 
 @media only screen and (min-width: 768px) {
     #home {
