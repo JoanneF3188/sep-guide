@@ -44,6 +44,9 @@ body {
     font-weight: bold;
 }
 
+#resources {
+    padding-top:40px;
+}
 
 /*#I{*/
 
@@ -152,4 +155,5 @@ body {
 
 #joannemanga {
     margin-left: 50px;
+   
 }
