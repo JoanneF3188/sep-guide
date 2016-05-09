@@ -7,18 +7,18 @@
 
 @media only screen and (min-width: 768px) {
     .nav {
-        font-size: 13px;
+        font-size: 14.91px;
     }
 }
 
 @media only screen and (min-width: 992px) {
     .nav {
-        font-size: 29.1px;
+        font-size: 23.1px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .nav {
-        font-size: 36.7px;
+        font-size: 30.7px;
     }
 }

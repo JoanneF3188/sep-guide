@@ -1,69 +1,21 @@
-/*html,*/
-/*body,*/
-/*.container-table {*/
-/*    height: 45%;*/
-/*    width: 100%;*/
-/*    background-color: gray;*/
-/*}*/
-
 body,
 html {
     background: linear-gradient(rgb(255, 255, 255), rgba(8, 107, 173, .8));
-}
-
-.text-vertical-center {
-    text-align: center;
-    vertical-align: middle;
-    display: table-cell;
 }
 
 body {
     background-color: whitesmoke;
 }
 
-h1 {
-    font-size: 60px;
-    text-align: center;
-}
-
 #home {
-    color: white;
     font-family: 'Cinzel', serif;
     text-align: center;
     font-weight: bold;
 }
 
-
-/*#I{*/
-/*    color:black;*/
-/*}*/
-/*#front-page {*/
-/*    display: table;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    background: linear-gradient( rgba(192, 222, 241, .4), rgba(37,64,168,.9)) no-repeat center;*/
-/*    background-size: cover;*/
-/*}*/
-
-
-
-.carousel {
-    height: 760px;
-    margin-bottom: 60px;
+#resources {
+    padding-top:40px;
 }
-
-.carousel .item {
-    height: 760px;
-    background-color: #777;
-}
-
-.carousel-inner > .item > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    text-align: center;
-}
-    
 
 @media only screen and (min-width: 768px) {
     #home {
@@ -90,10 +42,7 @@ h1 {
     margin-left: 50px;
 }
 
-#meaganmanga:hover {
-    border-color: #f1f1f1;
-}
-
 #joannemanga {
     margin-left: 50px;
+   
 }
