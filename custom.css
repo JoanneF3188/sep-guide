@@ -1,42 +1,12 @@
-/*html,*/
-
-
-/*body,*/
-
-
-/*.container-table {*/
-
-
-/*    height: 45%;*/
-
-
-/*    width: 100%;*/
-
-
-/*    background-color: gray;*/
-
-
-/*}*/
 
 body,
 html {
     background: linear-gradient(rgb(255, 255, 255), rgba(8, 107, 173, .8));
 }
 
-
-
 body {
     background-color: whitesmoke;
 }
-
-
-/*.carousel {*/
-
-
-/*    height: 700px;*/
-
-
-/*}*/
 
 #home {
     font-family: 'Cinzel', serif;
@@ -47,77 +17,6 @@ body {
 #resources {
     padding-top:40px;
 }
-
-/*#I{*/
-
-
-/*    color:black;*/
-
-
-/*}*/
-
-
-/*#front-page {*/
-
-
-/*    display: table;*/
-
-
-/*    width: 100%;*/
-
-
-/*    height: 100%;*/
-
-
-/*    background: linear-gradient( rgba(192, 222, 241, .4), rgba(37,64,168,.9)) no-repeat center;*/
-
-
-/*    background-size: cover;*/
-
-
-/*}*/
-
-
-/*.carousel {*/
-
-
-/*    height: 100px;*/
-
-
-/*margin-bottom: 60px;*/
-
-
-/*}*/
-
-
-/*.carousel .item {*/
-
-
-/*    height: 760px;*/
-
-
-/*    background-color: #777;*/
-
-
-/*}*/
-
-
-/*.carousel-inner > .item > img {*/
-
-
-/*    position: absolute;*/
-
-
-/*    top: 0;*/
-
-
-/*    left: 0;*/
-
-
-/*    width: 100%;*/
-
-
-/*}*/
 
 @media only screen and (min-width: 768px) {
     #home {
@@ -143,15 +42,6 @@ body {
 #meaganmanga {
     margin-left: 50px;
 }
-
-
-/*#meaganmanga:hover {*/
-
-
-/*    border-color: #f1f1f1;*/
-
-
-/*}*/
 
 #joannemanga {
     margin-left: 50px;
