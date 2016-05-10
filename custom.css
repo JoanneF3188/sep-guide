@@ -40,9 +40,21 @@ body {
 
 #meaganmanga {
     margin-left: 50px;
+border: 10px solid transparent;
 }
 
 #joannemanga {
     margin-left: 50px;
+    border: 10px solid transparent;
    
+}
+#meaganmanga:hover {
+       border-color: #d9d9d9;
+}
+#joannemanga:hover {
+       border-color: #d9d9d9;
+}
+
+#j, #m {
+    text-align:center;
 }
