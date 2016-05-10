@@ -43,18 +43,18 @@
         });
     </script>
 </head>
+
 <body>
     <header id="front-page">
         <h1 id="home">
        <center>Your SEP Survival Guide</center>
          </h1>
-
     </header>
     <nav id="navbar-main" class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a href="#front-page">
-                    <img src="hstatSep-logo-small.png" width="100px" height="40px">
+                    <img id="hstat-logo" src="hstatSep-logo-small.png" width="100px" height="40px">
                 </a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="icon-bar"></span>
@@ -66,12 +66,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-
-                    <li><a  href="#Il">Iniside Learning</a></li>
-                    <li><a  href="#Ol">Outside Learning </a></li>
-                    <li><a  href="#skills">Useful Skills </a></li>
-                    <li><a  href="#resources">Resources </a></li>
-
+                    <li><a href="#Il">Iniside Learning</a></li>
+                    <li><a href="#Ol">Outside Learning </a></li>
+                    <li><a href="#skills">Useful Skills </a></li>
+                    <li><a href="#resources">Resources </a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -90,19 +88,13 @@
         </ol>
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img class="first-slide" width="100%" height="100px" src="school_front.JPG" alt="First slide">
-                <!--<div class="container">-->
-                <!--</div>-->
+                <img class="first-slide" src="school_front.JPG" alt="First slide">
             </div>
             <div class="item">
-                <img class="second-slide" width="100%" height="100px" src="keyboard.JPG" alt="Second slide">
-                <!--<div class="container">-->
-                <!--</div>-->
+                <img class="second-slide" src="keyboard.JPG" alt="Second slide">
             </div>
             <div class="item">
-                <img class="third-slide" width="100%" height="100px" src="SEP_showcase.JPG" alt="Third slide">
-                <!--<div class="container">-->
-                <!--</div>-->
+                <img class="third-slide" src="SEP_showcase.JPG" alt="Third slide">
             </div>
         </div>
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -115,58 +107,89 @@
         </a>
     </div>
     <!-- /.carousel -->
-  <div id="IL">
-      <h2>Inside Learning</h2>
-      <ul>
-          <li>Participate in class </li>
+    <div id="IL">
+        <h2>Inside Learning</h2>
+        <ul>
+            <li>Participate in class </li>
             <li>Do your homework</li>
-              <li>Refer to slides and google docs for tests or quizzes </li>
-                <li>Take notes on a google doc during class to put certain concepts in </li>
-                  <li>When presenting in class, just relax and take a deep breath. Be proud of your hard work. :)</li>
-                    <li>Go to tutoring if you need help</li>
-                      <li>Don't be late to class </li>
-                      <!--quote--> "Early is on time" -Mr. Mueller
-                        <li>Make the most out of class trips. They are a great opportunity for networking.</li>
-                          <li>In regards to projects, </li>
-                       <!--quote--> "Done is better than perfect" -Mr. Mueller
-                      <br> Make sure you meet all the project requirements and keep in mind ways that you would want to further improve a project
-     
-      </div>
+            <li>Refer to slides and google docs for tests or quizzes </li>
+            <li>Take notes on a google doc during class to put certain concepts in </li>
+            <li>When presenting in class, just relax and take a deep breath. Be proud of your hard work. :)</li>
+            <li>Go to tutoring if you need help</li>
+            <li>Don't be late to class </li>
+            <!--quote-->"Early is on time" -Mr. Mueller
+            <li>Make the most out of class trips. They are a great opportunity for networking.</li>
+            <li>In regards to projects, </li>
+            <!--quote-->"Done is better than perfect" -Mr. Mueller
+            <br> Make sure you meet all the project requirements and keep in mind ways that you would want to further improve a project
+        </ul>
+    </div>
+        <div id="OL">
+        <h2>Outside Learning</h2>
+        <ul>
+            <li>Take advantage of opportunities such as internships or hackathons
+            <ul>Some examples include:
+                <li>GenTech</li>
+                    <li>Pathfinders Program</li>
+                        <li>Code Like a Girl</li>
+            </ul></li>
+            <li>LOYO (Learn on your own)</li>
+            <li>If you have time I recommend making projects on your own to practice and to utilize coding in a way that interests you. </li>
+           
+        </ul>
+    </div>
+    <div id="US">
+        <h2>Useful Skills</h2>
+        <ul>
+            <li>Plan before you code. Psuedocode (Putting code or what you want to do/ what you want to happen in your own words/human language) </li>
+            <li>Listen in class and take notes on concepts or information you deem important on a Google doc
+            <ul><li>I find it useful to translate notes into my own words to better understand certain concepts</li></ul></li>
+           
+        </ul>
+    </div>
     <div id="resources">
         <h2 id="rheading">Resources</h2>
         <ul>
             <li><a href="http://www.w3schools.com/">W3schools</a></li>
             <li>Class Slides</li>
-            <li>Google</li>
             <li>Your teacher</li>
             <li>Your peers</li>
+             <li>JSBin is useful when testing out code or playing around with a certain concept/piece of code</li>
+        <li>Code Academy is a great website to learn various languages or concepts</li>
+          <li>Google is your friend</li>
         </ul>
     </div>
-    <h3></h3>
-    
-       
-          
-    
-        <div class="col-sm-4">
-           <a href="#meagan" data-toggle="collapse">
-        <img id="meaganmanga" src="meagan.png" class="img-responsive img-circle" width="250" height="250">
-        
+<div class="container text-center">
+
+<div class="row">
+    <div class="col-sm-6">
+        <a href="#mc" data-toggle="collapse">
+             <img id="meaganmanga" src="meagan.png" class="img-responsive img-circle" width="250" height="250">
 </a>
+<div id="mc" class="collapse">
+<h3>Meagan Carioti</h3>
 </div>
-<div class="col-sm-4">
- <div id="meagan" class="collapse">
-    <h3 id="m"> Meagan Carioti</h3>
+</div>
+     <div class="col-sm-6">
+           <a href="#jf" data-toggle="collapse">
+               <img id="joannemanga" src="joanne.png" class="img-responsive img-circle" width="250" height="250">
+     </a>
+     <div id="jf" class="collapse">
+<h3>Joanne Fung</h3>
      </div>
-           <a href="#joanne" data-toggle="collapse">
-       
-        <img id="joannemanga" src="joanne.png" class="img-responsive img-circle" width="250" height="250"></footer>
-</a>
- <div id="joanne" class="collapse">
-     <h3 id="j">Joanne Fung</h3>
-     </div>
-     </div>
+</div>
+
+</div>
+
+
+   
+   </div>
 
 </body>
 
 </html>
+
+
+
+
 

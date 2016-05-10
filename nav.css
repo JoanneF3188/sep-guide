@@ -5,20 +5,37 @@
     text-align: center;
 }
 
+#hstat-logo {
+    height: 45px;
+    width: 120px;
+    margin-top: 4px;
+}
+
 @media only screen and (min-width: 768px) {
+    #hstat-logo {
+        width: 95px;
+    }
     .nav {
-        font-size: 22px;
+        font-size: 18px;
     }
 }
 
 @media only screen and (min-width: 992px) {
+    #hstat-logo {
+        height: 42px;
+        width: 100px;
+    }
     .nav {
         font-size: 26px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
+    #hstat-logo {
+        height: 42px;
+        width: 140px;
+    }
     .nav {
-        font-size: 35px;
+        font-size: 32px;
     }
 }

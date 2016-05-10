@@ -1,4 +1,3 @@
-
 html {
     background: linear-gradient(rgb(255, 255, 255), rgba(8, 107, 173, .8));
 }
@@ -14,7 +13,13 @@ body {
 }
 
 #resources {
-    padding-top:40px;
+    padding-top: 40px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -45,8 +50,9 @@ border: 10px solid transparent;
 
 #joannemanga {
     margin-left: 50px;
+
     border: 10px solid transparent;
-   
+
 }
 #meaganmanga:hover {
        border-color: #d9d9d9;
