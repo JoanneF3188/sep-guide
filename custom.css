@@ -16,13 +16,25 @@ body {
     padding-top: 40px;
 }
 
+.carousel {
+    height: 290px;
+}
+
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
+    height: 290px;
     width: 70%;
     margin: auto;
 }
 
 @media only screen and (min-width: 768px) {
+    .carousel {
+        height: 320px;
+    }
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        height: 320px;
+    }
     #home {
         text-align: center;
         font-size: 40px;
@@ -30,6 +42,13 @@ body {
 }
 
 @media only screen and (min-width:992px) {
+    .carousel {
+        height: 370px;
+    }
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        height: 370px;
+    }
     #home {
         font-size: 50px;
         text-align: center;
@@ -37,9 +56,26 @@ body {
 }
 
 @media only screen and (min-width:1200px) {
+    .carousel {
+        height: 500px;
+    }
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        height: 500px;
+    }
     #home {
         font-size: 62px;
         text-align: center;
+    }
+}
+
+@media only screen and (min-width:1547px) {
+    .carousel {
+        height: 700px;
+    }
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        height: 700px;
     }
 }
 
