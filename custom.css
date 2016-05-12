@@ -6,14 +6,50 @@ body {
     background-color: whitesmoke;
 }
 
+h2 {
+    
+    text-align: center;
+}
+
 #home {
     font-family: 'Cinzel', serif;
     text-align: center;
     font-weight: bold;
 }
 
+#Il {
+    padding-top: 45px;
+    display: table;
+    background-color: #CFBAFF;
+    width: 100%;
+}
+
+#Ol {
+    padding-top: 45px;
+    display: table;
+    background-color: #E889A2;
+    width: 100%;
+}
+
+#skills {
+    padding-top: 45px;
+    display: table;
+    background-color: #FFCD9A;
+    width: 100%;
+}
+
 #resources {
-    padding-top: 40px;
+    padding-top: 45px;
+    display: table;
+    background-color: #E8E28E;
+    width: 100%;
+}
+
+#footer {
+    padding-top: 45px;
+    display: table;
+    background-color: #A8FFB3;
+    width: 100%;
 }
 
 .carousel {
@@ -81,22 +117,23 @@ body {
 
 #meaganmanga {
     margin-left: 50px;
-border: 10px solid transparent;
+    border: 10px solid transparent;
 }
 
 #joannemanga {
     margin-left: 50px;
-
     border: 10px solid transparent;
-
 }
+
 #meaganmanga:hover {
-       border-color: #d9d9d9;
-}
-#joannemanga:hover {
-       border-color: #d9d9d9;
+    border-color: #d9d9d9;
 }
 
-#j, #m {
-    text-align:center;
+#joannemanga:hover {
+    border-color: #d9d9d9;
+}
+
+#j,
+#m {
+    text-align: center;
 }
