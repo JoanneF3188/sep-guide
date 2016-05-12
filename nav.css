@@ -1,5 +1,5 @@
 .navbar {
-    font-family: 'Kavoon', cursive;
+    font-family: 'Arvo', cursive;
     font-size: 20px;
     background-color: white;
     text-align: center;
@@ -13,10 +13,10 @@
 
 @media only screen and (min-width: 768px) {
     #hstat-logo {
-        width: 95px;
+        width: 103.6px;
     }
     .nav {
-        font-size: 18px;
+        font-size: 17.6px;
     }
 }
 
@@ -26,7 +26,7 @@
         width: 100px;
     }
     .nav {
-        font-size: 26px;
+        font-size: 25.6px;
     }
 }
 
@@ -36,6 +36,6 @@
         width: 140px;
     }
     .nav {
-        font-size: 32px;
+        font-size: 31.6px;
     }
 }
