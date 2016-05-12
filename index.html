@@ -14,20 +14,26 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!--custom-->
+     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="custom.css">
-    <link rel="stylesheet" href="nav.css">
+    <!--Google Fonts-->
     <link href='https://fonts.googleapis.com/css?family=Inknut+Antiqua:400,900' rel='stylesheet' type='text/css'>
-    <!--Inknut Antiqua-->
+    <!--Inknut Antiqua = 'Inknut Antiqua', serif;-->
     <link href='https://fonts.googleapis.com/css?family=Kavoon' rel='stylesheet' type='text/css'>
-    <!--Kavoon-->
-    <link href='https://fonts.googleapis.com/css?family=Arvo|Quicksand|Sigmar+One|Abril+Fatface|Orbitron|Cinzel|Fredoka+One|Work+Sans|Didact+Gothic' rel='stylesheet' type='text/css'>
+    <!--Kavoon = 'Kavoon', cursive;-->
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'>
+    <!--Acme 'Acme', sans-serif-->
+    <link href='https://fonts.googleapis.com/css?family=Arvo|Cinzel' rel='stylesheet' type='text/css'>
+    <!--Arvo = 'Arvo', serif; and Cinzel = 'Cinzel', serif;-->
+    <link href='https://fonts.googleapis.com/css?family=Dekko' rel='stylesheet' type='text/css'>
+    <!--Dekko = 'Dekko', cursive;-->
     <script>
         /*! Main */
         jQuery(document).ready(function($) {
 
             $("#hstat-logo").click(function() {
                 window.scrollTo(0, 0);
-            })
+            });
 
             // Fixa navbar ao ultrapassa-lo
             var navbar = $('#navbar-main'),
@@ -109,7 +115,7 @@
         </a>
     </div>
     <!-- /.carousel -->
-    <div id="Il">
+    <div id="Il" class="container">
         <h2>Inside Learning</h2>
         <ul>
             <li>Participate in class </li>
@@ -126,7 +132,7 @@
             <br> Make sure you meet all the project requirements and keep in mind ways that you would want to further improve a project
         </ul>
     </div>
-    <div id="Ol">
+    <div id="Ol" class="container">
         <h2>Outside Learning</h2>
         <ul>
             <li>Take advantage of opportunities such as internships or hackathons
@@ -141,7 +147,7 @@
 
         </ul>
     </div>
-    <div id="skills">
+    <div id="skills" class="container">
         <h2>Useful Skills</h2>
         <ul>
             <li>Plan before you code. Psuedocode (Putting code or what you want to do/ what you want to happen in your own words/human language) </li>
@@ -156,7 +162,7 @@
             <li>Do not be discouraged by errors. Errors are awesome. </li>
         </ul>
     </div>
-    <div id="resources">
+    <div id="resources" class="container">
         <h2 id="rheading">Resources</h2>
         <ul>
             <li><a href="http://www.w3schools.com/">W3schools</a></li>
@@ -189,9 +195,6 @@
             </div>
 
         </div>
-
-
-
     </div>
 
 </body>
