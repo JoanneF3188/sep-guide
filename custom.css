@@ -14,6 +14,7 @@ blockquote {
 }
 
 .link {
+    font-size: 17px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -22,7 +23,8 @@ blockquote {
     font-family: 'Dekko', cursive;
 }
 
-#mc,#jf{
+#mc,
+#jf {
     font-family: 'Ultra', serif;
 }
 

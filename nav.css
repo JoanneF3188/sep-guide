@@ -1,4 +1,5 @@
 .navbar {
+    height: 52px;
     font-family: 'Arvo', cursive;
     font-size: 20px;
     background-color: rgba(179, 217, 255, 0.8);
@@ -8,12 +9,12 @@
 #hstat-logo {
     height: 45px;
     width: 120px;
-    margin-top: 4px;
+    margin-top: 2.5px;
 }
 
 @media only screen and (min-width: 768px) {
     #hstat-logo {
-        width: 103.6px;
+        width: 105.1px;
     }
     .nav {
         font-size: 17.3px;
@@ -22,17 +23,16 @@
 
 @media only screen and (min-width: 992px) {
     #hstat-logo {
-        height: 42px;
-        width: 100px;
+        width: 110.1px;
     }
     .nav {
-        font-size: 25.6px;
+        font-size: 25.2px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     #hstat-logo {
-        height: 42px;
+        height: 45px;
         width: 140px;
     }
     .nav {
