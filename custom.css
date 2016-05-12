@@ -10,7 +10,7 @@ h2 {
 
 blockquote {
     color: gray;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .link {
@@ -35,35 +35,35 @@ blockquote {
 }
 
 #Il {
-    padding-top: 45px;
+    padding-top: 35px;
     display: table;
     background-color: #CFBAFF;
     width: 100%;
 }
 
 #Ol {
-    padding-top: 45px;
+    padding-top: 35px;
     display: table;
     background-color: #E889A2;
     width: 100%;
 }
 
 #skills {
-    padding-top: 45px;
+    padding-top: 35px;
     display: table;
     background-color: #FFCD9A;
     width: 100%;
 }
 
 #resources {
-    padding-top: 45px;
+    padding-top: 35px;
     display: table;
     background-color: #E8E28E;
     width: 100%;
 }
 
 #footer {
-    padding-top: 45px;
+    padding-top: 35px;
     display: table;
     background-color: #A8FFB3;
     width: 100%;
