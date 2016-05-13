@@ -1,21 +1,32 @@
-html {
-    background: linear-gradient(rgb(255, 255, 255), rgba(8, 107, 173, .8));
-}
-
 body {
-    background-color: whitesmoke;
+    background-color: pink;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 34px;
     font-family: 'Acme', sans-serif;
     text-align: center;
 }
 
-/*li {*/
-/*    font-size: 23px;*/
-/*    font-family: 'Dekko', cursive;*/
-/*}*/
+blockquote {
+    color: gray;
+    font-size: 17px;
+}
+
+.link {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content-list {
+    font-size: 20px;
+    font-family: 'Dekko', cursive;
+}
+
+#mc,
+#jf {
+    font-family: 'Ultra', serif;
+}
 
 #home {
     font-family: 'Cinzel', serif;
@@ -24,41 +35,42 @@ h2 {
 }
 
 #Il {
-    padding-top: 45px;
+    padding-top: 35px;
     display: table;
     background-color: #CFBAFF;
     width: 100%;
 }
 
 #Ol {
-    padding-top: 45px;
+    padding-top: 35px;
     display: table;
     background-color: #E889A2;
     width: 100%;
 }
 
 #skills {
-    padding-top: 45px;
+    padding-top: 35px;
     display: table;
     background-color: #FFCD9A;
     width: 100%;
 }
 
 #resources {
-    padding-top: 45px;
+    padding-top: 35px;
     display: table;
     background-color: #E8E28E;
     width: 100%;
 }
 
 #footer {
-    padding-top: 45px;
+    padding-top: 35px;
     display: table;
     background-color: #A8FFB3;
     width: 100%;
 }
 
 .carousel {
+    background-color: lightcyan;
     height: 290px;
 }
 
@@ -70,6 +82,15 @@ h2 {
 }
 
 @media only screen and (min-width: 768px) {
+    blockquote {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .content-list {
+        font-size: 23px;
+    }
     .carousel {
         height: 320px;
     }
@@ -84,6 +105,15 @@ h2 {
 }
 
 @media only screen and (min-width:992px) {
+    blockquote {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 45px;
+    }
+    .content-list {
+        font-size: 26px;
+    }
     .carousel {
         height: 370px;
     }
@@ -98,6 +128,15 @@ h2 {
 }
 
 @media only screen and (min-width:1200px) {
+    blockquote {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    .content-list {
+        font-size: 29px;
+    }
     .carousel {
         height: 500px;
     }
