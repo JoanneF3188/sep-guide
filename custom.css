@@ -18,7 +18,7 @@ blockquote {
     font-family: 'Raleway', sans-serif;
 }
 
-.content-list {
+#content {
     font-size: 20px;
     font-family: 'Dekko', cursive;
 }
@@ -92,7 +92,7 @@ blockquote {
     h2 {
         font-size: 40px;
     }
-    .content-list {
+    #content {
         font-size: 23px;
     }
     .carousel {
@@ -115,7 +115,7 @@ blockquote {
     h2 {
         font-size: 45px;
     }
-    .content-list {
+    #content {
         font-size: 26px;
     }
     .carousel {
@@ -138,7 +138,7 @@ blockquote {
     h2 {
         font-size: 50px;
     }
-    .content-list {
+    #content {
         font-size: 29px;
     }
     .carousel {
@@ -187,10 +187,6 @@ blockquote {
 #j,
 #m {
     text-align: center;
-}
-
-#content {
-    font-size:20px;
 }
 
 #link {
