@@ -34,7 +34,7 @@
     <script>
         $(function() {
 
-            $("a").on('click', function(event) {
+            $(".scroll").on('click', function(event) {
                 event.preventDefault();
                 var hash = this.hash;
                 $('html, body').animate({
@@ -68,7 +68,7 @@
     <nav id="navbar-main" class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a href="#home"><img id="hstat-logo" src="hstatSep-logo-small.png" width="100px" height="40px"></a>
+                <a class="scroll" href="#home"><img id="hstat-logo" src="hstatSep-logo-small.png" width="100px" height="40px"></a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -78,10 +78,10 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#Il">Iniside Learning</a></li>
-                    <li><a href="#Ol">Outside Learning </a></li>
-                    <li><a href="#skills">Useful Skills </a></li>
-                    <li><a href="#resources">Resources </a></li>
+                    <li><a class="scroll" href="#Il">Iniside Learning</a></li>
+                    <li><a class="scroll" href="#Ol">Outside Learning </a></li>
+                    <li><a class="scroll" href="#skills">Useful Skills </a></li>
+                    <li><a class="scroll" href="#resources">Resources </a></li>
                 </ul>
             </div>
         </div>
@@ -114,7 +114,7 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-   
+
     <div id="Il" class="container">
         <h2>Inside Learning</h2>
         <ul id="content">
@@ -154,14 +154,17 @@
             <li>Plan before you code. Psuedocode (Putting code or what you want to do/ what you want to happen in your own words/human language) </li>
             <li>Listen in class and take notes on concepts or information you deem important on a Google doc
 
-            <ul><li>I find it useful to translate notes into my own words and not use complete sentences to better understand certain concepts</li></ul></li>
-           <li>Communicate with your partners over text messaging or facebook messaging and try to divide the work evenly</li>
-       <li>When working on projects that only one partner submits, establish who will submit the project the night before</li>
-       <li>Do not give up. Perservere :)</li>
-       <li>Do not be discouraged by errors. Errors are awesome and help you improve. </li>
+                <ul>
+                    <li>I find it useful to translate notes into my own words and not use complete sentences to better understand certain concepts</li>
+                </ul>
+            </li>
+            <li>Communicate with your partners over text messaging or facebook messaging and try to divide the work evenly</li>
+            <li>When working on projects that only one partner submits, establish who will submit the project the night before</li>
+            <li>Do not give up. Perservere :)</li>
+            <li>Do not be discouraged by errors. Errors are awesome and help you improve. </li>
 
 
-    
+
         </ul>
     </div>
     <div id="resources" class="container">
@@ -182,26 +185,27 @@
             <div class="col-sm-6">
                 <div id="mc" class="collapse">
                     <h3>Meagan Carioti</h3>
-                    <a id="link" href="https://sites.google.com/a/hstat.org/meaganc2976sep11/github">Click here to see Meagan's Portfolio as a Junior</a>
+                    <a class="link" href="https://sites.google.com/a/hstat.org/meaganc2976sep11/github">Click here to see Meagan's Portfolio as a Junior</a>
                     <br>
-                    <a id="link" href="https://sites.google.com/a/hstat.org/meaganc2976sep/web-design">Click here to see Meagan's Portfolio as a Sophmore </a>
+                    <a class="link" href="https://sites.google.com/a/hstat.org/meaganc2976sep/web-design">Click here to see Meagan's Portfolio as a Sophmore </a>
                 </div>
-                <a id="link" href="#mc" data-toggle="collapse">
+                <a class="link" href="#mc" data-toggle="collapse">
                     <img id="meaganmanga" src="meagan.png" class="img-responsive img-circle" width="250" height="250">
                 </a>
             </div>
             <div class="col-sm-6">
                 <div id="jf">
                     <h3>Joanne Fung</h3>
-                    <a href='https://www.google.com'>Click here to see Joanne's Portfolio as a Junior</a>
+                    <a class="link" href='https://sites.google.com/a/hstat.org/joannef3188sep11/'>Click here to see Joanne's Portfolio as a Junior</a>
                     <br> <a class="link" href="https://sites.google.com/a/hstat.org/joannef3188sep/">Click here to see Joanne's Portfolio as a Sophmore</a>
                 </div>
-                <a href="#jf" data-toggle="collapse">
+                <a class="link" href="#jf" data-toggle="collapse">
                     <img id="joannemanga" src="joanne.png" class="img-responsive img-circle" width="250" height="250">
                 </a>
             </div>
         </div>
 
-</div>
+    </div>
 </body>
+
 </html>
