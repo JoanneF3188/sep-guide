@@ -34,7 +34,7 @@
     <script>
         $(function() {
 
-            $("a").on('click', function(event) {
+            $("#n").on('click', function(event) {
                 event.preventDefault();
                 var hash = this.hash;
                 $('html, body').animate({
@@ -53,18 +53,20 @@
                 else {
                     navbar.removeClass('navbar-fixed-top');
                     $("body").css("padding-top", "0px");
-                }
-         
-         
-//     $("#IL").click(function() {
-//     $('#IL').toggleClass('clicked');
-// });
+        }
+
         });
+}
 
 
     </script>
 </head>
-
+<style>
+    #content{
+    list-style-image: url('computer.png');
+  
+}
+</style>
 <body>
     <header>
         <h1 id="home">
@@ -84,10 +86,10 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#Il">Iniside Learning</a></li>
-                    <li><a href="#Ol">Outside Learning </a></li>
-                    <li><a href="#skills">Useful Skills </a></li>
-                    <li><a href="#resources">Resources </a></li>
+                    <li><a id="n" href="#Il">Iniside Learning</a></li>
+                    <li><a  id="n" href="#Ol">Outside Learning </a></li>
+                    <li><a  id="n" href="#skills">Useful Skills </a></li>
+                    <li><a  id="n" href="#resources">Resources </a></li>
                 </ul>
             </div>
         </div>
@@ -123,7 +125,7 @@
    
     <div id="Il" class="container">
         <h2>Inside Learning</h2>
-        <ul id="content">
+        <ul class="mouse" id="content">
             <li>Participate in class </li>
             <li>Do your homework</li>
             <li>Refer to slides and google docs for tests or quizzes </li>
