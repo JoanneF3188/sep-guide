@@ -46,11 +46,9 @@ blockquote {
     display: table;
     background-color: #CFBAFF;
     width: 100%;
-    transition:background-color 2s ease;
+  
 }
-.clicked {
-  background:lightgreen;
-}
+
 
 #Ol {
     padding-top: 35px;
